@@ -19,12 +19,26 @@
     font-weight: bold;
     font-family: 'Inter', sans-serif;
     background:
-    radial-gradient(circle at 85% 25%, rgba(156,255,46,0.40), transparent 30%),
+    radial-gradient(circle at 85% 25%, rgba(156,255,46,0.40), transparent 25%),
     radial-gradient(circle at 15% 75%, rgba(156,255,46,0.32), transparent 19%),
-    radial-gradient(circle at 50% 50%, rgba(145, 255, 48, 0.717), transparent 30%),
-  #242424;
+    radial-gradient(circle at 50% 10%, rgba(145, 255, 48, 0.417), transparent 30%),
+    radial-gradient(circle at 50% 90%, rgba(145, 255, 48, 0.35), transparent 20%),
+  #000000;
     
+    background-size: 120% 120%;
+    animation: bgMove 5s ease-in-out infinite alternate;
 }
+
+
+@keyframes bgMove {
+    0% {
+        background-position: 10% 10%, 80% 0%, 50% 20%, 0% 0%, 0 0;
+    }
+    100% {
+        background-position: 0% 80%, 50% 90%, 65% 90%, 25% 50%, 0 0;
+    }
+}
+
 .slider_item{
     display: flex;
     position: relative;
