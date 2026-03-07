@@ -1,0 +1,24 @@
+@media (max-width: 1280px) {
+    .slider_item{
+        background-color: blue;
+    }
+}
+
+@media (max-width: 1024px) {
+    .slider_item{
+        background-color: brown;
+    }
+}
+
+@media (max-width: 768px){
+    .slider_item{
+        background-color: rgb(54, 255, 90);
+    }
+}
+
+
+@media (max-width: 480px) {
+    .slider_item{
+        background-color: rgb(200, 255, 20);
+    }
+}
